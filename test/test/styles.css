@@ -7,8 +7,10 @@ body {
 header {
     background: black url(kar.png) no-repeat 30% 85%;
     color: black;
-    min-height: 80px;
     empty-cells:hide;
+}
+#logot{
+    min-height: 80px;
 }
 .logo {
     width: 100px;
