@@ -6,6 +6,7 @@ body {
 header {
     background: black url(kar.png) no-repeat 40% 435%;
     color: black;
+    min-height: 150px;
 }
 #logot{
     min-height: 70px;
