@@ -77,9 +77,9 @@ nav ul li a {
     border: 3px solid #120303;
 }
 table {
-    max-width: 960px;
-    width: 100%;
     border-collapse:separate;
+    empty-cells:hide;
+    marging-bottom:10px;
 }
 
 th {
