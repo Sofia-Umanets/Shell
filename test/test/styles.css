@@ -5,19 +5,19 @@ body {
     front-size:100%;
 }
 header {
-    background: black url(kar.png) no-repeat 40% 1%;
+    background: black url(kar.png) no-repeat 40% 35%;
     color: black;
 }
 #logot{
-    min-height: 80px;
+    min-height: 70px;
 }
 .logo {
     width: 100px;
     height: 100px;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 header h1 {
-    width: 100%;
+    width: auto;
     text-align: center;
     color: white;
     text-shadow: 7px 5px 7px purple;
@@ -93,8 +93,6 @@ td {
     background-color: #9a8d8d;
 }
 .form{
-    height: 100%;
-    width:100%;
     display:grid;
     text-align: center;
     front-size:20px;
