@@ -7,7 +7,6 @@ body {
 header {
     background: black url(kar.png) no-repeat 30% 85%;
     color: black;
-    empty-cells:hide;
 }
 #logot{
     min-height: 80px;
@@ -31,9 +30,8 @@ nav{
     text-shadow: 5px 0px 5px black;
     float: right;
     width: auto;
-    height: 50px;
+    height: auto;
     margin-left: auto;
-    align-content: center;
     background-color:rgb(146, 64, 146);
 }
 nav ul {
