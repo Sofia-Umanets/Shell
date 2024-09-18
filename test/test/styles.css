@@ -72,7 +72,7 @@ nav ul li a {
 }
 .table-container {
     max-width: 100%;
-    margin: 10px auto;
+    margin-bottom:5px;
     border: 3px solid #120303;
     empty-cells:hide;
 }
@@ -84,7 +84,6 @@ table {
 th {
     background-color:rgb(146, 64, 146);
     color: white;
-    padding: 15px;
 }
 td {
     padding: 15px;
