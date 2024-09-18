@@ -3,7 +3,6 @@ body {
     background-color: rgb(213, 194, 220);
 }
 header {
-    width: 100%;
     background: black url(kar.png) no-repeat 100% 85%;
     color: black;
     min-height: 150px;
