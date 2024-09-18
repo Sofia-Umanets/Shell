@@ -2,10 +2,10 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(213, 194, 220);
     margin:0;
-    front-size:120%;
+    front-size:100%;
 }
 header {
-    background: black url(kar.png) no-repeat 40% 85%;
+    background: black url(kar.png) no-repeat 40% 25%;
     color: black;
 }
 #logot{
@@ -45,8 +45,12 @@ nav li {
     margin: 0 15px;
 }
 nav a {
+    float:left;
     color: white;
+    text-aling:center;
     text-decoration: none;
+    margin-left:10px;
+    margin-right:10px;
 }
 .link{
     padding: 0;
