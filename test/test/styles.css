@@ -1,129 +1,153 @@
-body {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(213, 194, 220);
-}
-header {
-    display:flex;
-    flex-direction:column;
-    align-items:centr;
-     max-width: 960px;
-    background: black url(kar.png) no-repeat 100% 85%;
-    color: black;
-    min-height: 150px;
-}
-.logo {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-}
-header h1 {
-    width: auto;
-    text-align: center;
-    color: white;
-    text-shadow: 7px 5px 7px purple;
-    padding-bottom: 20px;
-}
-header img{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-nav{
-    text-shadow: 5px 0px 5px black;
-    float: right;
-    width: auto;
-    height: 50px;
-    margin-left: auto;
-    align-content: center;
-    background-color:rgb(146, 64, 146);
-}
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin:0;
-    text-align: right;
-}
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-nav ul li a {
-    float:left;
-    color: white;
-    text-decoration: none;
-}
-.link{
-    padding: 0;
-    margin: 0 auto;
-    margin: 20px auto;
-    text-align: center;
-}
-.link li{
-    margin:10px 0;
-    color: #73156b;
-}
-.link ol{
-    list-style-type: decimal;
-    padding: 0;
-    margin: 0 auto;
-    width: fit-content;
-    text-align: center;
-}
-.name{
-    padding: 0;
-    margin: 0 auto;
-    margin: 20px auto;
-    text-align: center;
-}
-.table-container {
-    border-collapse:separate;
-    empty-cells:hide;
-    margin: 10px auto;
-    border: 3px solid #120303;
-}
-table {
-    border-collapse:separate;
-    empty-cells:hide;
-    marging-bottom:10px;
-}
+body { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-color: rgb(213, 194, 220); 
+    margin: 0; /* Убираем маргин для body */
+} 
 
-th {
-    background-color:rgb(146, 64, 146);
-    color: white;
-    padding: 15px;
-}
-td {
-    padding: 15px;
-    text-align: left;
-}
-.row-odd {
-    background-color: #f2f2f2;
-}
-.row-even {
-    background-color: #9a8d8d;
-}
-.form{
-    padding: 0;
-    margin: 0 auto;
-    margin: 20px auto;
-    text-align: center;
-    max-width: 960px;
-    border: 3px solid #762d70;
-}
-main{
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    background-color: rgb(234, 189, 238);
-    max-width: 960px;
-    margin-bottom: 25px;
-}
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background: black url(kar.png) no-repeat 10% 20%;
+header { 
+    background: black url(kar.png) no-repeat 100% 85%; 
+    color: black; 
+    min-height: 150px; 
+} 
+
+.logo { 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 100%; 
+} 
+
+header h1 { 
+    font-size: 40px; 
+    text-align: center; 
+    color: white; 
+    text-shadow: 7px 5px 7px purple; 
+    padding-bottom: 20px; 
+} 
+
+header img { 
+    margin-left: 20px; 
+    margin-top: 10px; 
+} 
+
+nav { 
+    text-shadow: 5px 0px 5px black; 
+    float: right; 
+    width: auto; 
+    background-color: rgb(146, 64, 146); 
+} 
+
+nav ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: right; 
+} 
+
+nav ul li { 
+    display: inline; 
+    margin: 0 15px; 
+} 
+
+nav ul li a { 
+    color: white; 
+    text-decoration: none; 
+} 
+
+.link { 
+    text-align: center; 
+} 
+
+.link li { 
+    margin: 10px 0; 
+    color: #73156b; 
+} 
+
+.link ol { 
+    list-style-type: decimal; 
+    padding: 0; 
+    margin: 0 auto; 
+    width: fit-content; 
+    text-align: center; 
+} 
+
+.name { 
+    text-align: center; 
+} 
+
+.table-container { 
+    max-width: 960px; 
+    margin: 10px auto; 
+    border: 3px solid #120303; 
+    overflow-x: auto; /* Добавляем прокрутку для таблицы */
+} 
+
+table { 
+    width: 100%; 
+    border-collapse: separate; 
+    table-layout: auto; /* Автоматическое вычисление ширины столбцов */
+} 
+
+th { 
+    background-color: rgb(146, 64, 146); 
+    color: white; 
+    padding: 15px; 
+} 
+
+td { 
+    padding: 15px; 
+    text-align: left; 
+} 
+
+.row-odd { 
+    background-color: #f2f2f2; 
+} 
+
+.row-even { 
+    background-color: #9a8d8d; 
+} 
+
+.form { 
+    text-align: center; 
+    max-width: 960px; 
+    margin: 20px auto; 
+    border: 3px solid #762d70; 
+} 
+
+main { 
+    justify-content: center; 
+    background-color: rgb(234, 189, 238); 
+    max-width: 960px; 
+    margin: 20px auto; 
+} 
+
+footer { 
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    background: black url(kar.png) no-repeat 10% 20%; 
+} 
+
+/* Медиа-запросы */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 30px; /* Уменьшаем размер заголовка на мобильных устройствах */
+    }
+
+    nav {
+        float: none; /* Убираем float, чтобы меню располагалось вертикально */
+        text-align: center; /* Центрирование ссылок в навигации */
+    }
+
+    nav ul li {
+        display: block; /* Список навигации в столбик */
+        margin: 10px 0; /* Вертикальные отступы */
+    }
+
+    .table-container {
+        padding: 10px; /* Немного отступов для удобства */
+    }
 }
