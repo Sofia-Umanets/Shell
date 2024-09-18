@@ -69,7 +69,7 @@ nav a {
     text-align: center;
 }
 .table-container {
-    max-width: 960px;
+    max-width: 100%;
     margin: 10px auto;
     border: 3px solid #120303;
     empty-cells:hide;
@@ -94,6 +94,7 @@ td {
     background-color: #9a8d8d;
 }
 .form{
+     max-width: 100%;
     display:grid;
     text-align: center;
     front-size:20px;
