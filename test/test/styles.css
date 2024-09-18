@@ -4,7 +4,6 @@ body {
 }
 header {
     width: 100%;
-    display:flax;
     flex-direction:column;
     background: black url(kar.png) no-repeat 100% 85%;
     color: black;
