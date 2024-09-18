@@ -97,13 +97,12 @@ td {
     background-color: #9a8d8d;
 }
 .form{
-    max-width: 100%;
-    width:auto;
+    width:100%;
+    box-sizzing:border-box;
     display:grid;
     text-align: center;
     front-size:20px;
     border: 3px solid #762d70;
-    empty-cells:hide;
 }
 main{
     margin-left: auto;
