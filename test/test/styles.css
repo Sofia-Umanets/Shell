@@ -2,9 +2,10 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(213, 194, 220);
     margin:0;
+    front-size:120%;
 }
 header {
-    background: black url(kar.png) no-repeat 50% 85%;
+    background: black url(kar.png) no-repeat 30% 85%;
     color: black;
     min-height: 80px;
     empty-cells:hide;
