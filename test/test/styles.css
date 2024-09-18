@@ -5,7 +5,7 @@ body {
     front-size:120%;
 }
 header {
-    background: black url(kar.png) no-repeat 30% 85%;
+    background: black url(kar.png) no-repeat 50% 85%;
     color: black;
 }
 #logot{
@@ -104,7 +104,7 @@ td {
     border: 3px solid #762d70;
 }
 input,button{
-    width:100%;
+    width:90%;
     box-sizzing:border-box;
 }
 main{
