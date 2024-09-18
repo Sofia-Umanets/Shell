@@ -3,9 +3,10 @@ body {
     background-color: rgb(213, 194, 220);
 }
 header {
-    background: black url(kar.png) no-repeat 100% 85%;
+    background: black url(kar.png) no-repeat 20% 85%;
     color: black;
     min-height: 150px;
+    max-width: 100%;
 }
 .logo {
     width: 100px;
