@@ -47,6 +47,7 @@ nav ul li {
     margin: 0 15px;
 }
 nav ul li a {
+    float:left;
     color: white;
     text-decoration: none;
 }
@@ -74,7 +75,8 @@ nav ul li a {
     text-align: center;
 }
 .table-container {
-    max-width: 960px;
+    border-collapse:separate;
+    empty-cells:hide;
     margin: 10px auto;
     border: 3px solid #120303;
 }
