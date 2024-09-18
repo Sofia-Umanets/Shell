@@ -1,7 +1,6 @@
 body {
-    
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: rgb(213, 194, 220);
-    margin:0;
     front-size:100%;
 }
 header {
@@ -12,8 +11,6 @@ header {
     min-height: 70px;
 }
 .logo {
-    width: 100px;
-    height: 100px;
     border-radius: 100%;
 }
 header h1 {
