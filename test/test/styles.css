@@ -3,6 +3,9 @@ body {
     background-color: rgb(213, 194, 220);
 }
 header {
+    display:flex;
+    flex-direction:column;
+    align-items:centr;
      max-width: 960px;
     background: black url(kar.png) no-repeat 100% 85%;
     color: black;
