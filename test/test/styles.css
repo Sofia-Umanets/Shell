@@ -48,7 +48,7 @@ nav ul li a {
     text-decoration: none;
 }
 .link{
-    display:flax;
+    display:flex;
     flex-direction:column;
     text-align: center;
     margin: 20px 0;
