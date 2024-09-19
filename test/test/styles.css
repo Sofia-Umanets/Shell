@@ -26,8 +26,9 @@ header img{
     margin-top: 10px;
 }
 nav{
+    float: right;
     width: auto;
-    text-shadow: 5px 0px 5px black;
+    height: 50px;
     margin-left: auto;
     align-content: center;
     background-color:rgb(146, 64, 146);
@@ -38,13 +39,17 @@ nav ul {
     margin:0;
     text-align: right;
 }
-nav ul li {
+nav li {
     display: inline;
     margin: 0 15px;
 }
-nav ul li a {
-    color: white;
+nav a {
+    float: left;
+    color: midnightblue;
+    text-align: center;
     text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .link{
     padding: 0;
