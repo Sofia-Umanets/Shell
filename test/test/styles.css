@@ -18,12 +18,9 @@ header {
     border-radius: 100%;
 }
 header h1 {
-    font-size: 40px;
-    width: auto;
     text-align: center;
     color: white;
     text-shadow: 7px 5px 7px purple;
-    padding-bottom: 20px;
 }
 header img{
     margin-left: 20px;
