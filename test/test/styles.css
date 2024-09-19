@@ -5,7 +5,8 @@ body {
 header {
     background: black url(kar.png) no-repeat 100% 85%;
     color: black;
-    min-height: 150px;
+    min-height: 100px;
+    float:left;
 }
 .logo {
     float:left;
