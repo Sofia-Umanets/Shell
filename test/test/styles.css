@@ -8,6 +8,7 @@ header {
     min-height: 150px;
 }
 .logo {
+    float:left;
     width: 100px;
     height: 100px;
     border-radius: 100%;
@@ -25,9 +26,10 @@ header img{
     margin-top: 10px;
 }
 nav{
+    float:right;
     text-shadow: 5px 0px 5px black;
     float: right;
-    width: auto;
+    width: 80%;
     height: 50px;
     margin-left: auto;
     align-content: center;
