@@ -3,7 +3,7 @@ body {
     background-color: rgb(213, 194, 220);
 }
 header {
-    background: black url(kar.png) no-repeat 60% 50%;
+    background: black url(kar.png) no-repeat 60% 10%;
     color: black;
     min-height: 150px;
 }
@@ -48,16 +48,18 @@ nav ul li a {
     text-decoration: none;
 }
 .link{
-    display: flex;
-    padding: 0;
-    margin: 0 auto;
-    margin: 20px auto;
-    text-align: center;
+    display:flax;
+    flex-direction:column;
+    align-items:center;
+    margin: 20px 0;
 }
+
 .link ul{
-    display: inline-flex;
-    list-style-position: inside;    
-    margin: 10px 0;
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    display:flax;
+    align-items:center;
 }
 .link li{
     margin:10px 0;
