@@ -103,37 +103,11 @@ form {
     padding: 0;
     margin: 0 auto;
     margin: 20px auto;
-    text-align: center;
-    max-width: 960px;
+    max-width: 100%;
     border: 3px solid #762d70;
     display: grid;
     font-size: 20px;
     text-align: center;
-}
-
-form input {
-    font-size: 16px;
-}
-
-form select {
-    font-size: 16px;
-}
-
-form button {
-    width: 50%;
-    height: 50px;
-    margin-left: 25%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: navajowhite;
-}
-
-form textarea {
-    height: 200px;
-}
-textarea{
-    width: 100%;
-    height: 100%;
 }
 main{
     margin-left: auto;
