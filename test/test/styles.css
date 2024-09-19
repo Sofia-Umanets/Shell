@@ -98,12 +98,32 @@ td {
 .row-even {
     background-color: #9a8d8d;
 }
-.form{
-    max-width: 100%;
-    margin-bottom:5px;
-    empty-cells:hide;
+
+form {
+    display: grid;
+    font-size: 20px;
     text-align: center;
-    border: 3px solid #762d70;
+}
+
+form input {
+    font-size: 16px;
+}
+
+form select {
+    font-size: 16px;
+}
+
+form button {
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: navajowhite;
+}
+
+form textarea {
+    height: 200px;
 }
 textarea{
     width: 100%;
