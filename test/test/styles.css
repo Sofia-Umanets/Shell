@@ -4,13 +4,15 @@ body {
 }
 header {
     background: black url(kar.png) no-repeat 20% 85%;
-    color: black;
+    color: green;
     min-height: 150px;
     max-width: 100%;
     display:flex;
     justify-content:space-between;
     align-items:centr;
     padding:0 20px;
+    flex-direction:column;
+    align-items:right;
 }
 .logo {
     width: 100px;
