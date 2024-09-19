@@ -28,11 +28,11 @@ header img{
     margin-top: 10px;
 }
 nav{
-    float: right;
     width: auto;
     height: 50px;
-    margin-left: auto;
-    align-content: center;
+    position:absolute;
+    top:10px;
+    right:10px;
     background-color:rgb(146, 64, 146);
 }
 nav ul {
@@ -46,7 +46,6 @@ nav li {
     margin: 0 7px;
 }
 nav a {
-    float: left;
     color: midnightblue;
     text-align: center;
     text-decoration: none;
