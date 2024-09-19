@@ -7,6 +7,10 @@ header {
     color: black;
     min-height: 150px;
     max-width: 100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:centr;
+    padding:0 20px;
 }
 .logo {
     width: 100px;
@@ -27,12 +31,11 @@ header img{
 }
 nav{
     text-shadow: 5px 0px 5px black;
-    float: right;
-    width: auto;
     height: 50px;
-    margin-left: auto;
-    align-content: center;
     background-color:rgb(146, 64, 146);
+    width:100%;
+    text-align:right;
+    margin-top:10px;
 }
 nav ul {
     list-style-type: none;
