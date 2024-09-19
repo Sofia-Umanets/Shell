@@ -3,7 +3,7 @@ body {
     background-color: rgb(213, 194, 220);
 }
 header {
-    background: black url(kar.png) no-repeat 70% 20%;
+    background: black url(kar.png) no-repeat 60% 10%;
     color: black;
     min-height: 150px;
 }
@@ -55,6 +55,7 @@ nav ul li a {
 }
 .link ul{
      text-align: center;
+    align-items: center;
 }
 .link li{
     margin:10px 0;
