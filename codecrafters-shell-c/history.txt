@@ -1,0 +1,75 @@
+\e $PATH
+\e $HOME
+\e PATH
+\e HOME
+jj
+echo jhjj
+\q
+\e $PATH
+echo jjk
+knmnjk
+exit
+\mem 53599
+1
+echo fff
+\l /dev/sda
+\q
+\mem 53915
+sudo \mem 53915
+\q
+\l /dev/sda
+echo dfkk
+\cron
+\mem 58659
+\e $PATH
+\q
+kill -SIGHUP <59236>
+hjhh
+kill -s SIGHUP <59236>
+\cron
+\q
+echo jjj
+kdkl
+\l /dev/sda1
+exit
+\l /dev/nvme0n1 
+\l /div/sda
+\l /dev/sda
+\q
+\cron
+\cron en
+\cron -l
+\q
+\cron
+\mem
+\mem 69708
+sudo \mem 69708
+\l /dev/sda
+cat hist.txt
+\cron
+\e $HOME
+\e $PATH
+\q
+\mem 70866
+\q
+\mem 69668
+kill -HUP 69667
+kill -SIGHUP 69667
+SIGHUP 123
+\й
+\q
+kill -HUP 69667
+echo jjjk
+exit
+\cron
+\l /dev/sda
+\q
+\l /dev/sda
+\q
+\q
+\lo /dev/sda
+\lo
+\l
+\kkk
+\l /dev/sda
+exit
